@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A032985018EEA8F800A348F4 /* restartbtn.png in Resources */ = {isa = PBXBuildFile; fileRef = A032984F18EEA8F800A348F4 /* restartbtn.png */; };
+		A050F8CB18D5A47700A58542 /* tube.png in Resources */ = {isa = PBXBuildFile; fileRef = A050F8CA18D5A47700A58542 /* tube.png */; };
+		A050F8CD18D5FCC600A58542 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A050F8CC18D5FCC600A58542 /* background@2x.png */; };
+		A0C984B118D333240052A0BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0C984B018D333240052A0BB /* Foundation.framework */; };
+		A0C984B318D333240052A0BB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0C984B218D333240052A0BB /* CoreGraphics.framework */; };
+		A0C984B518D333240052A0BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0C984B418D333240052A0BB /* UIKit.framework */; };
+		A0C984BB18D333240052A0BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0C984B918D333240052A0BB /* InfoPlist.strings */; };
+		A0C984BD18D333240052A0BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C984BC18D333240052A0BB /* main.m */; };
+		A0C984C118D333240052A0BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C984C018D333240052A0BB /* AppDelegate.m */; };
+		A0C984C418D333240052A0BB /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0C984C218D333240052A0BB /* Main_iPhone.storyboard */; };
+		A0C984C718D333240052A0BB /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0C984C518D333240052A0BB /* Main_iPad.storyboard */; };
+		A0C984CA18D333240052A0BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C984C918D333240052A0BB /* ViewController.m */; };
+		A0C984CC18D333240052A0BB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0C984CB18D333240052A0BB /* Images.xcassets */; };
+		A0C984D318D333240052A0BB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0C984D218D333240052A0BB /* XCTest.framework */; };
+		A0C984D418D333240052A0BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0C984B018D333240052A0BB /* Foundation.framework */; };
+		A0C984D518D333240052A0BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0C984B418D333240052A0BB /* UIKit.framework */; };
+		A0C984DD18D333250052A0BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0C984DB18D333250052A0BB /* InfoPlist.strings */; };
+		A0C984DF18D333250052A0BB /* MushyFallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C984DE18D333250052A0BB /* MushyFallTests.m */; };
+		A0C984EA18D333C00052A0BB /* IntroScene.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C984E918D333C00052A0BB /* IntroScene.m */; };
+		A0C984ED18D336BF0052A0BB /* MushyFall.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C984EC18D336BF0052A0BB /* MushyFall.m */; };
+		A0C984EF18D33D5C0052A0BB /* mushroom.png in Resources */ = {isa = PBXBuildFile; fileRef = A0C984EE18D33D5C0052A0BB /* mushroom.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0C984D618D333250052A0BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0C984A518D333240052A0BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0C984AC18D333240052A0BB;
+			remoteInfo = MushyFall;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A032984F18EEA8F800A348F4 /* restartbtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = restartbtn.png; sourceTree = "<group>"; };
+		A050F8CA18D5A47700A58542 /* tube.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tube.png; sourceTree = "<group>"; };
+		A050F8CC18D5FCC600A58542 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		A0C984AD18D333240052A0BB /* MushyFall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MushyFall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0C984B018D333240052A0BB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A0C984B218D333240052A0BB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A0C984B418D333240052A0BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A0C984B818D333240052A0BB /* MushyFall-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MushyFall-Info.plist"; sourceTree = "<group>"; };
+		A0C984BA18D333240052A0BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A0C984BC18D333240052A0BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A0C984BE18D333240052A0BB /* MushyFall-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MushyFall-Prefix.pch"; sourceTree = "<group>"; };
+		A0C984BF18D333240052A0BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A0C984C018D333240052A0BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A0C984C318D333240052A0BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		A0C984C618D333240052A0BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		A0C984C818D333240052A0BB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A0C984C918D333240052A0BB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A0C984CB18D333240052A0BB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A0C984D118D333240052A0BB /* MushyFallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MushyFallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0C984D218D333240052A0BB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A0C984DA18D333250052A0BB /* MushyFallTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MushyFallTests-Info.plist"; sourceTree = "<group>"; };
+		A0C984DC18D333250052A0BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A0C984DE18D333250052A0BB /* MushyFallTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MushyFallTests.m; sourceTree = "<group>"; };
+		A0C984E818D333C00052A0BB /* IntroScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroScene.h; sourceTree = "<group>"; };
+		A0C984E918D333C00052A0BB /* IntroScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroScene.m; sourceTree = "<group>"; };
+		A0C984EB18D336BF0052A0BB /* MushyFall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MushyFall.h; sourceTree = "<group>"; };
+		A0C984EC18D336BF0052A0BB /* MushyFall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MushyFall.m; sourceTree = "<group>"; };
+		A0C984EE18D33D5C0052A0BB /* mushroom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mushroom.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0C984AA18D333240052A0BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0C984B318D333240052A0BB /* CoreGraphics.framework in Frameworks */,
+				A0C984B518D333240052A0BB /* UIKit.framework in Frameworks */,
+				A0C984B118D333240052A0BB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0C984CE18D333240052A0BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0C984D318D333240052A0BB /* XCTest.framework in Frameworks */,
+				A0C984D518D333240052A0BB /* UIKit.framework in Frameworks */,
+				A0C984D418D333240052A0BB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0C984A418D333240052A0BB = {
+			isa = PBXGroup;
+			children = (
+				A0C984B618D333240052A0BB /* MushyFall */,
+				A0C984D818D333250052A0BB /* MushyFallTests */,
+				A0C984AF18D333240052A0BB /* Frameworks */,
+				A0C984AE18D333240052A0BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0C984AE18D333240052A0BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0C984AD18D333240052A0BB /* MushyFall.app */,
+				A0C984D118D333240052A0BB /* MushyFallTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0C984AF18D333240052A0BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0C984B018D333240052A0BB /* Foundation.framework */,
+				A0C984B218D333240052A0BB /* CoreGraphics.framework */,
+				A0C984B418D333240052A0BB /* UIKit.framework */,
+				A0C984D218D333240052A0BB /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0C984B618D333240052A0BB /* MushyFall */ = {
+			isa = PBXGroup;
+			children = (
+				A0C984BF18D333240052A0BB /* AppDelegate.h */,
+				A0C984C018D333240052A0BB /* AppDelegate.m */,
+				A0C984C218D333240052A0BB /* Main_iPhone.storyboard */,
+				A0C984C518D333240052A0BB /* Main_iPad.storyboard */,
+				A0C984C818D333240052A0BB /* ViewController.h */,
+				A0C984C918D333240052A0BB /* ViewController.m */,
+				A0C984E818D333C00052A0BB /* IntroScene.h */,
+				A0C984E918D333C00052A0BB /* IntroScene.m */,
+				A0C984EB18D336BF0052A0BB /* MushyFall.h */,
+				A0C984EC18D336BF0052A0BB /* MushyFall.m */,
+				A0C984CB18D333240052A0BB /* Images.xcassets */,
+				A050F8CC18D5FCC600A58542 /* background@2x.png */,
+				A032984F18EEA8F800A348F4 /* restartbtn.png */,
+				A0C984EE18D33D5C0052A0BB /* mushroom.png */,
+				A050F8CA18D5A47700A58542 /* tube.png */,
+				A0C984B718D333240052A0BB /* Supporting Files */,
+			);
+			path = MushyFall;
+			sourceTree = "<group>";
+		};
+		A0C984B718D333240052A0BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0C984B818D333240052A0BB /* MushyFall-Info.plist */,
+				A0C984B918D333240052A0BB /* InfoPlist.strings */,
+				A0C984BC18D333240052A0BB /* main.m */,
+				A0C984BE18D333240052A0BB /* MushyFall-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A0C984D818D333250052A0BB /* MushyFallTests */ = {
+			isa = PBXGroup;
+			children = (
+				A0C984DE18D333250052A0BB /* MushyFallTests.m */,
+				A0C984D918D333250052A0BB /* Supporting Files */,
+			);
+			path = MushyFallTests;
+			sourceTree = "<group>";
+		};
+		A0C984D918D333250052A0BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0C984DA18D333250052A0BB /* MushyFallTests-Info.plist */,
+				A0C984DB18D333250052A0BB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0C984AC18D333240052A0BB /* MushyFall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0C984E218D333250052A0BB /* Build configuration list for PBXNativeTarget "MushyFall" */;
+			buildPhases = (
+				A0C984A918D333240052A0BB /* Sources */,
+				A0C984AA18D333240052A0BB /* Frameworks */,
+				A0C984AB18D333240052A0BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MushyFall;
+			productName = MushyFall;
+			productReference = A0C984AD18D333240052A0BB /* MushyFall.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0C984D018D333240052A0BB /* MushyFallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0C984E518D333250052A0BB /* Build configuration list for PBXNativeTarget "MushyFallTests" */;
+			buildPhases = (
+				A0C984CD18D333240052A0BB /* Sources */,
+				A0C984CE18D333240052A0BB /* Frameworks */,
+				A0C984CF18D333240052A0BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0C984D718D333250052A0BB /* PBXTargetDependency */,
+			);
+			name = MushyFallTests;
+			productName = MushyFallTests;
+			productReference = A0C984D118D333240052A0BB /* MushyFallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0C984A518D333240052A0BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Oyster Productions";
+				TargetAttributes = {
+					A0C984D018D333240052A0BB = {
+						TestTargetID = A0C984AC18D333240052A0BB;
+					};
+				};
+			};
+			buildConfigurationList = A0C984A818D333240052A0BB /* Build configuration list for PBXProject "MushyFall" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0C984A418D333240052A0BB;
+			productRefGroup = A0C984AE18D333240052A0BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0C984AC18D333240052A0BB /* MushyFall */,
+				A0C984D018D333240052A0BB /* MushyFallTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0C984AB18D333240052A0BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0C984C718D333240052A0BB /* Main_iPad.storyboard in Resources */,
+				A0C984CC18D333240052A0BB /* Images.xcassets in Resources */,
+				A032985018EEA8F800A348F4 /* restartbtn.png in Resources */,
+				A050F8CD18D5FCC600A58542 /* background@2x.png in Resources */,
+				A0C984C418D333240052A0BB /* Main_iPhone.storyboard in Resources */,
+				A0C984EF18D33D5C0052A0BB /* mushroom.png in Resources */,
+				A0C984BB18D333240052A0BB /* InfoPlist.strings in Resources */,
+				A050F8CB18D5A47700A58542 /* tube.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0C984CF18D333240052A0BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0C984DD18D333250052A0BB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0C984A918D333240052A0BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0C984CA18D333240052A0BB /* ViewController.m in Sources */,
+				A0C984EA18D333C00052A0BB /* IntroScene.m in Sources */,
+				A0C984C118D333240052A0BB /* AppDelegate.m in Sources */,
+				A0C984ED18D336BF0052A0BB /* MushyFall.m in Sources */,
+				A0C984BD18D333240052A0BB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0C984CD18D333240052A0BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0C984DF18D333250052A0BB /* MushyFallTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0C984D718D333250052A0BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0C984AC18D333240052A0BB /* MushyFall */;
+			targetProxy = A0C984D618D333250052A0BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A0C984B918D333240052A0BB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0C984BA18D333240052A0BB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A0C984C218D333240052A0BB /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0C984C318D333240052A0BB /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		A0C984C518D333240052A0BB /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0C984C618D333240052A0BB /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		A0C984DB18D333250052A0BB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0C984DC18D333250052A0BB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0C984E018D333250052A0BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0C984E118D333250052A0BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0C984E318D333250052A0BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MushyFall/MushyFall-Prefix.pch";
+				INFOPLIST_FILE = "MushyFall/MushyFall-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A0C984E418D333250052A0BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MushyFall/MushyFall-Prefix.pch";
+				INFOPLIST_FILE = "MushyFall/MushyFall-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A0C984E618D333250052A0BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MushyFall.app/MushyFall";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MushyFall/MushyFall-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MushyFallTests/MushyFallTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A0C984E718D333250052A0BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MushyFall.app/MushyFall";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MushyFall/MushyFall-Prefix.pch";
+				INFOPLIST_FILE = "MushyFallTests/MushyFallTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0C984A818D333240052A0BB /* Build configuration list for PBXProject "MushyFall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0C984E018D333250052A0BB /* Debug */,
+				A0C984E118D333250052A0BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0C984E218D333250052A0BB /* Build configuration list for PBXNativeTarget "MushyFall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0C984E318D333250052A0BB /* Debug */,
+				A0C984E418D333250052A0BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0C984E518D333250052A0BB /* Build configuration list for PBXNativeTarget "MushyFallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0C984E618D333250052A0BB /* Debug */,
+				A0C984E718D333250052A0BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0C984A518D333240052A0BB /* Project object */;
+}
